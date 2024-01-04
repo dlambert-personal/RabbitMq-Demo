@@ -1,7 +1,8 @@
 repo_name: dlambert-personal/RabbitMq-Demo
 report_id: d8a2964a87d6b86c0891314f8da673c8
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T18:09:20+00:00'
+timestamp: '2024-01-04T15:05:57+00:00'
 requested_by: dlambert-personal
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/dlambert-personal/RabbitMq-Demo
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -27,7 +29,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
-  detection_source: send/Send.csproj
+  detection_source_url: https://github.com/dlambert-personal/RabbitMq-Demo/blob/master/receive/Receive.csproj
+  detection_source: receive/Receive.csproj
   last_updated_by: David Lambert
   last_updated_on: 2020-06-06 02:20:48.000000000 Z
 - name: ".NET Core"
@@ -41,8 +44,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
-  detection_source_url: receive/Receive.csproj
-  detection_source: send/Send.csproj
+  detection_source_url: https://github.com/dlambert-personal/RabbitMq-Demo/blob/master/receive/Receive.csproj
+  detection_source: receive/Receive.csproj
   last_updated_by: David Lambert
   last_updated_on: 2020-06-06 02:20:48.000000000 Z
 - name: ASP.NET Core
@@ -56,8 +59,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/11331/asp.net-core.png
-  detection_source_url: receive/Receive.csproj
-  detection_source: send/Send.csproj
+  detection_source_url: https://github.com/dlambert-personal/RabbitMq-Demo/blob/master/receive/Receive.csproj
+  detection_source: receive/Receive.csproj
   last_updated_by: David Lambert
   last_updated_on: 2020-06-06 02:20:48.000000000 Z
 - name: RabbitMQ
@@ -68,7 +71,8 @@ tools:
   category: Data Stores
   sub_category: Message Queue
   image_url: https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg
-  detection_source: send/Send.csproj
+  detection_source_url: https://github.com/dlambert-personal/RabbitMq-Demo/blob/master/receive/Receive.csproj
+  detection_source: receive/Receive.csproj
   last_updated_by: David Lambert
   last_updated_on: 2020-06-06 02:20:48.000000000 Z
 - name: Git
@@ -79,6 +83,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dlambert-personal/RabbitMq-Demo
   detection_source: Repo Metadata
 - name: NuGet
   description: The package manager for .NET
@@ -88,7 +93,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
-  detection_source: send/Send.csproj
+  detection_source_url: https://github.com/dlambert-personal/RabbitMq-Demo/blob/master/receive/Receive.csproj
+  detection_source: receive/Receive.csproj
   last_updated_by: David Lambert
   last_updated_on: 2020-06-06 02:20:48.000000000 Z
 - name: Visual Studio
@@ -100,6 +106,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/dlambert-personal/RabbitMq-Demo/blob/master/RabbitMQ_Demo.sln
   detection_source: RabbitMQ_Demo.sln
   last_updated_by: David Lambert
   last_updated_on: 2020-06-06 02:20:48.000000000 Z
@@ -112,7 +119,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12910/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
-  detection_source_url: receive/Receive.csproj
-  detection_source: send/Send.csproj
+  detection_source_url: https://github.com/dlambert-personal/RabbitMq-Demo/blob/master/receive/Receive.csproj
+  detection_source: receive/Receive.csproj
   last_updated_by: David Lambert
   last_updated_on: 2020-06-06 02:20:48.000000000 Z
